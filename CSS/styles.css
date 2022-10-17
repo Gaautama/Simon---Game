@@ -1,0 +1,74 @@
+body {
+  background-color: #001E3F;
+  color: #FEF3BE;
+  margin: 1rem auto;
+  padding: inherit;
+  width: 80%;
+}
+
+/************************ Class ************************/
+.conteiner {
+  display: block;
+  margin: auto;
+}
+
+.btn {
+  height: 12rem;
+  width: 12rem;
+  border: black 10px solid;
+  border-radius: 10%;
+  margin: 1rem ;
+  display: inline-block;
+}
+
+.btn:hover {
+  border-color: white;
+  cursor: pointer;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+/************************* ID *************************/
+#nivel {
+  font-family: "Press Start 2P", serif;
+  font-size: 1.3rem;
+  margin: auto;
+  padding: 8rem 0;
+}
+
+#verde {
+  background-color: green;
+}
+
+#rojo {
+  background-color: red;
+}
+
+#amarillo {
+  background-color: yellow;
+}
+
+#azul {
+  background-color: blue;
+}
+
+/********************* Media Query ********************/
+@media (max-width: 475px) {
+  #nivel {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    height: 7.5rem;
+    width: 7.5rem;
+  }
+
+}
